@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
     },
     cameraButton: {
         width: "80%",
-        height: 150,
+        height: 130,
         borderRadius: 20,
         backgroundColor: 'rgba(217, 217, 217, 0.34)',
         justifyContent: 'center',

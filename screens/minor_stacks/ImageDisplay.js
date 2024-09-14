@@ -16,8 +16,16 @@ export default function ImageDisplay({navigation, route}) {
         name: 'photo.jpg',
     });
 
+    // const timer = setTimeout(() => {
+    //   const result = {"predictions": [[0.015448784828186, 0.00003093261329922825, 0.86009042960300575942, 0.00008635463018435985, 0.000012032398444716819, 0.08430565893650055, 0.04002584856702014804]]}
+    //   console.log("resultzz", result)
+    //   navigation.navigate('Results', {result: result});
+    //   }, 1000);
+
+    // Cleanup the timer on component unmount
+    // return () => clearTimeout(timer);
     try {
-        const response = await fetch('http://127.0.0.1:5000/predict', {
+        const response = await fetch('http://192.168.1.189:5000/predict', {
             method: 'POST',
             body: formData,
             headers: {
@@ -26,7 +34,7 @@ export default function ImageDisplay({navigation, route}) {
         });
 
         const result = await response.json();
-        console.log(result)
+        console.log("resultzz", result)
         navigation.navigate('Results', {result: result});
     } catch (error) {
         console.error('Error:', error);

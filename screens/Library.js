@@ -40,7 +40,7 @@ function Library({ navigation, route }) {
     // const [snakes, setSnakes] = useState([]);
 
     // useEffect(() => {
-    //     fetch('http://127.0.0.1:5000/snakes')
+    //     fetch('http://192.168.43.113:5000/snakes')
     //         .then(response => response.json())
     //         .then(data => setSnakes(data))
     //         .catch(error => console.error('Error fetching snakes:', error));

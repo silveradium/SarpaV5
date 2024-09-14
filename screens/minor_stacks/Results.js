@@ -54,13 +54,11 @@ console.log(snakes[top4Indexes[0]].english.name);
             <Text style={styles.readmoreText}>Read More </Text>
           </TouchableOpacity>
         </View>
-
-        <Text>Results</Text>
       </View>
       <View style={styles.bottom}>
 
-          <Text style={[styles.headingText, {textAlign: 'left', marginLeft: 30, fontFamily: 'Poppins-Light'}]}>Other Possibilites</Text>
-          <View style={[styles.characteristics, {justifyContent: 'space-around', padding: 20}]}>
+          <Text style={[styles.headingText, {textAlign: 'left', marginLeft: 30, fontFamily: 'Poppins-Light', marginBottom: -30}]}>Other Possibilites</Text>
+          <View style={[styles.characteristics, {justifyContent: 'space-around', padding: 10}]}>
           <TouchableOpacity style={styles.otherimagescover} onPress={() => navigation.navigate('Details',
             {
               name: snakes[top4Indexes[1]].english.name,
@@ -121,7 +119,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
   },  
   bottom: {
-    height: '6%',
+    height: '10%',
     backgroundColor: 'black',
   },
   background: {
@@ -162,7 +160,7 @@ const styles = StyleSheet.create({
     probability: {
         width: '100%',
         marginLeft: 20,
-        marginTop: "60%",
+        marginTop: "30%",
     },
     probabilityText: {
         color: 'white',
@@ -173,7 +171,7 @@ const styles = StyleSheet.create({
     characteristics: {
         width: '100%',
         // marginLeft: 20,
-        marginTop: 10,
+        marginTop: 30,
         flexDirection: 'row',
         justifyContent: 'space-between',
     },
