@@ -8,11 +8,12 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 
 ## 🏆 Achievements
 
-- 🥉 **Finalists** at **Idealyze 2024**
+- 🥉 **Finalists** at **Idealize 2024**
 - 🌿 **Winner** of the **Sixth Flow Award** — awarded for the most **environmentally impactful** innovation
 
-![Idealyze 2024 - Finalists](./assets/screenshots/87d96f81-2900-4a2d-9596-15492df27659.png)
-
+<p align="center">
+  <img src="./images/celebration.png" alt="Idealyze 2024 - Finalists" width="45%" style="margin-right: 10px;" />
+</p>
 ---
 
 ## ✨ Features
@@ -23,6 +24,9 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 - 🔍 Snake details with images, first aid, and risk levels
 - 🗺️ Clean UI and smooth navigation experience
 
+<p align="center">
+  <img src="./images/interviews.jpeg" alt="Interviews" width="45%" style="margin-right: 10px;" />
+</p>
 ---
 
 ## 🛠️ Tech Stack
@@ -44,6 +48,9 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
   - Accuracy: **98% test**, **93% validation**
 - **Hosting:** Currently served from a local Flask server
 
+<p align="center">
+  <img src="./images/model-training.png" alt="Idealyze 2024 - Finalists" width="45%" style="margin-right: 10px;" />
+</p>
 ---
 
 ## 🧪 Model Training Pipeline
@@ -57,11 +64,8 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 
 ## 🖼️ Screenshots
 
-### 🔍 Home Screen  
-![Home Screen](./assets/screenshots/home.png)
-
-### 🐍 Snake Info  
-![Snake Info](./assets/screenshots/info.png)
+### 🔍 App Preview 
+![Home Screen](./images/preview.png)
 
 > ⚠️ Add your screenshots into `assets/screenshots/` and adjust paths above
 
