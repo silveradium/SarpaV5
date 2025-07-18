@@ -25,9 +25,9 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 - 🗺️ Clean UI and smooth navigation experience
 
 <p align="center">
-  <img src="./images/interviews.jpeg" alt="Interviews" width="45%" style="margin-right: 10px;" />
+  <img src="./images/interviews.jpeg" alt="Interviews" width="55%" style="margin-right: 10px;" />
 </p>
----
+
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +49,7 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 - **Hosting:** Currently served from a local Flask server
 
 <p align="center">
-  <img src="./images/model-training.png" alt="Idealyze 2024 - Finalists" width="45%" style="margin-right: 10px;" />
+  <img src="./images/model-training.png" alt="Idealyze 2024 - Finalists" width="65%" style="margin-right: 10px;" />
 </p>
 ---
 
@@ -65,8 +65,9 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 ## 🖼️ Screenshots
 
 ### 🔍 App Preview 
-![Home Screen](./images/preview.png)
-
+<p align="center">
+  <img src="./images/preview.png" alt="Preview" width="65%" style="margin-right: 10px;" />
+</p>
 > ⚠️ Add your screenshots into `assets/screenshots/` and adjust paths above
 
 ---
