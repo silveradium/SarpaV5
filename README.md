@@ -68,7 +68,7 @@ Sarpa is a mobile application built with **React Native (Expo)** that enables us
 <p align="center">
   <img src="./images/preview.png" alt="Preview" width="65%" style="margin-right: 10px;" />
 </p>
-> ⚠️ Add your screenshots into `assets/screenshots/` and adjust paths above
+
 
 ---
 
